@@ -1,0 +1,53 @@
+h2{
+    color:white;
+}
+h3{
+    color:mediumvioletred;
+}
+
+.styleButton {
+
+    width:150px;
+    height:50px;
+    font-size:1em;
+    font-family: "Avenir Next";
+    font-weight: 410;
+    background-color:cornflowerblue;
+    border:none;
+    border-radius:12px;
+    transition:0.5s;
+    
+}
+.styleButton:hover
+{
+    width:160px;
+    height:55px;
+    font-size: 1.1em;
+	background-color:coral;
+    color:white;
+}
+body
+{
+	background-image: url("background.jpg");
+    background-size: cover;
+    overflow:auto;
+    color:white;
+}
+
+
+table.result {
+    border:none;
+}
+table.result td {
+    border-radius: 2px;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    background: rgba(230,230,230,0.3); 
+}
+table.result th{
+    background: rgba(30,30,30,0.7); 
+    border-radius: 2px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color:antiquewhite;
+}
